@@ -9,12 +9,6 @@ const massEl = document.getElementById('mass-el')
 const oneMeterToFeet = 3.281
 const oneLiterToGallon = 0.264
 const oneKgToPound = 2.204
-let meter = null
-let liter = null
-let kilogram = null
-let feet = null
-let gallon = null
-let pound = null
 
 
 function generateResults(value, factor, singular, plural, singularTo, pluralTo) {
